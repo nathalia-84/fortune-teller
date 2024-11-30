@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fortune Teller</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fortune Teller</h1>
+      <img src="./assets/fortune-img.png" alt="A fortune teller with his crystal ball">
+      <label for="monthSelect">Select your birth month:</label>
+      <select id="monthSelect">
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+      </select>
+
+      <button onclick="showFortune()">Show Fortune</button>
+
+      <p id="fortune"></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
